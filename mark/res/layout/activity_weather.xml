@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/weatherback" >
+ <TextView android:layout_height="wrap_content" 
+     android:layout_width="fill_parent" 
+     android:textColor="#000000" 
+     android:gravity="center_horizontal" 
+     android:textSize="30sp" 
+     android:id="@+id/city"/>
+
+
+<LinearLayout android:orientation="horizontal" 
+    android:padding="10dp" 
+    android:layout_height="wrap_content"
+     android:layout_width="fill_parent">
+
+<TextView
+    android:layout_width="118dp"
+    android:layout_height="wrap_content"
+    android:text=" 当前天气"
+    android:textColor="#000000"
+    android:textSize="14sp" />
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:textColor="#000000" 
+    android:gravity="right" 
+    android:textSize="14sp" 
+    android:id="@+id/reporttime1" 
+    android:text="report_time" 
+    android:layout_weight="1"/>
+
+</LinearLayout>
+
+
+<LinearLayout android:orientation="horizontal" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:paddingTop="20dp">
+
+<TextView android:layout_height="wrap_content"
+     android:layout_width="fill_parent" 
+     android:textColor="#000000" 
+     android:gravity="center_horizontal"
+      android:textSize="30sp" 
+      android:id="@+id/weather" 
+      android:layout_weight="1"/>
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent" 
+    android:textColor="#000000" 
+    android:gravity="center_horizontal"
+     android:textSize="30sp" 
+     android:id="@+id/temp" 
+     android:layout_weight="1"/>
+
+</LinearLayout>
+
+
+<LinearLayout android:orientation="vertical" 
+    android:layout_height="wrap_content"
+     android:layout_width="fill_parent" 
+     android:paddingTop="10dp" 
+     android:paddingLeft="55dp">
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent"
+     android:textColor="#000000" 
+     android:textSize="14sp" 
+     android:id="@+id/wind" 
+     android:layout_weight="1"
+      android:layout_margin="5dp"/>
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent"
+     android:textColor="#000000" 
+     android:textSize="14sp" 
+     android:id="@+id/humidity" 
+     android:layout_weight="1" 
+     android:layout_margin="5dp"/>
+
+</LinearLayout>
+
+
+<LinearLayout android:orientation="horizontal" 
+    android:padding="10dp" 
+    android:layout_height="wrap_content"
+     android:layout_width="fill_parent">
+
+<TextView
+    android:layout_width="108dp"
+    android:layout_height="wrap_content"
+    android:text=" 未来天气"
+    android:textColor="#000000"
+    android:textSize="14sp" />
+
+<TextView android:layout_height="wrap_content" 
+    android:layout_width="fill_parent"
+     android:textColor="#000000" 
+     android:gravity="right" 
+     android:textSize="14sp"
+      android:id="@+id/reporttime2" 
+      android:text="report_time" 
+      android:layout_weight="1"/>
+
+</LinearLayout>
+
+<TextView android:layout_height="wrap_content"
+     android:layout_width="fill_parent"
+       android:textColor="#000000"
+       android:textSize="14sp" 
+       android:id="@+id/forecast" 
+       android:layout_weight="1" 
+       android:layout_marginLeft="40dp"/>
+
+</LinearLayout>
